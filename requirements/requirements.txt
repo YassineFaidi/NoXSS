@@ -1,0 +1,22 @@
+# Core ML and Data Science libraries
+tensorflow>=2.8.0
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+
+# Visualization libraries
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Configuration and utilities
+pyyaml>=6.0
+tqdm>=4.62.0
+
+# Development and testing
+pytest>=6.2.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Jupyter for examples (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0 

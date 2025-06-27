@@ -1,0 +1,40 @@
+# Configuration file for XSS Detection with LSTM Networks
+
+# Data preprocessing parameters
+data:
+  max_vocab_size: 10000
+  max_sequence_length: 200
+  test_size: 0.2
+  min_length: 10
+  random_state: 42
+
+# Model parameters
+model:
+  vocab_size: 10000
+  embedding_dim: 100
+  lstm_units: 128
+  dense_units: 64
+  dropout_rate: 0.5
+
+# Training parameters
+training:
+  batch_size: 32
+  epochs: 10
+  validation_split: 0.2
+  patience: 2
+
+# File paths
+paths:
+  data_file: "data/data.csv"
+  processed_data: "processed_data.npz"
+  tokenizer: "tokenizer.pkl"
+  lstm_model: "models/lstm_model.h5"
+  lstm_attention_model: "models/lstm_attention_model.h5"
+  final_lstm_model: "models/final_lstm_model.h5"
+  final_lstm_attention_model: "models/final_lstm_attention_model.h5"
+
+# Output settings
+output:
+  save_plots: true
+  plot_format: "png"
+  results_dir: "results" 
