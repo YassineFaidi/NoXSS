@@ -43,7 +43,7 @@ A professional machine learning project for detecting **Cross-Site Scripting (XS
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/xss-detection-lstm.git
+   git clone https://github.com/YassineFaidi/NoXSS.git
    cd xss-detection-lstm
    ```
 
